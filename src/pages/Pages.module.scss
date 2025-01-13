@@ -1,0 +1,14 @@
+.PageContextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  width: 15rem;
+}
+
+.PageContextInput {
+  padding: 10px;
+
+  border-radius: .5rem;
+  border: 1px solid #777;
+}
