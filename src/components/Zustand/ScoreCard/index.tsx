@@ -1,8 +1,5 @@
 import { useUserStore } from '@stores/UserZustand'
-
-interface IScoreCard {
-  className?: string
-}
+import { IScoreCard } from '@utils/types/user'
 
 export const ScoreCard = ({ className }: IScoreCard) => {
   const score = useUserStore(store => store.user.score)

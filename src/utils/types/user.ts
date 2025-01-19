@@ -14,3 +14,11 @@ export interface IUserContext {
 export interface IUserContextProvider {
   children: ReactNode
 }
+
+export interface IProfile {
+  className?: string
+}
+
+export interface IScoreCard {
+  className?: string
+}

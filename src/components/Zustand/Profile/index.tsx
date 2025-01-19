@@ -1,8 +1,5 @@
 import { useUserStore } from '@stores/UserZustand'
-
-interface IProfile {
-  className?: string
-}
+import { IProfile } from '@utils/types/user'
 
 export const Profile = ({ className }: IProfile) => {
   const email = useUserStore(store => store.user.email)

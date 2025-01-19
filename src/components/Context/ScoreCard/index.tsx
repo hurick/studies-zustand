@@ -1,9 +1,6 @@
 import { useContext } from 'react'
 import { UserContext } from '@stores/UserContext'
-
-interface IScoreCard {
-  className?: string
-}
+import { IScoreCard } from '@utils/types/user'
 
 export const ScoreCard = ({ className }: IScoreCard) => {
   const userContext = useContext(UserContext)

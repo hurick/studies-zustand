@@ -1,9 +1,6 @@
 import { useContext } from 'react'
 import { UserContext } from '@stores/UserContext'
-
-interface IProfile {
-  className?: string
-}
+import { IProfile } from '@utils/types/user'
 
 export const Profile = ({ className }: IProfile) => {
   const userContext = useContext(UserContext)
