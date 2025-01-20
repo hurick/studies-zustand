@@ -9,8 +9,6 @@ Zustand is a fast and scalable state management solution for React. It provides 
 ## Contents
 
 - **Context API Comparison**: Zustand vs React Context API.
-- **Practical Examples**: Real-world use cases.
-- **Basic Usage**: Getting started with Zustand.
 - **Persistence**: Implementing state persistence with Zustand.
 
 ## Setup
