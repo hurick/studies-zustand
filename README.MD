@@ -1,6 +1,6 @@
-# Zustand Studies 📚
+# Zustand & Context Comparasion 📚
 
-Welcome to the Zustand Studies repository! This project contains a collection of study materials, examples, and implementations focused on Zustand, a small but powerful state management library for React applications.
+This repository contains a comparison between Zustand and React's Context API, highlighting the differences, advantages, and use cases of each approach for state management in React applications.
 
 ## What is Zustand?
 
